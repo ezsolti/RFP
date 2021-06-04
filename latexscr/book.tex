@@ -1,0 +1,117 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{graphicx, color}
+\usepackage{amssymb}
+\usepackage{listings} %source code listing
+\usepackage{multirow}
+%\usepackage[version=2]{mhchem}
+\usepackage{subfig}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{units}
+\usepackage{gensymb}
+\usepackage{adjustbox}
+\usepackage{tcolorbox}
+\usepackage{listings}
+\usepackage{color}
+ 
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\newcommand{\specialcell}[2][c]{%
+  \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+ 
+
+
+\title{Reactor physics with Python \\ Lecture Notes}
+
+
+\author{Zs.~Elter. E. Branger, M. Preston \\ Uppsala University \\
+        Division of Applied Nuclear Physics}%\corref{cja}}
+%
+\date{2021.}
+\begin{document}
+
+\maketitle
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\include{introduction}
+
+\include{01-nuclearphysics}
+
+\include{02-chainreaction_spectrum}
+
+\include{03-neutrontransport}
+
+\include{04-time_dependence_v2}
+
+\include{appendix}
+
+
+
+
+%\begin{thebibliography}{9}
+%\label{sec:ref}
+%\addcontentsline{toc}{section}{\nameref{sec:ref}}
+%
+%\bibitem{pnnl} 
+%R. J. McConn et al.  
+%\textit{Compendium of Material Composition Data for Radiation Transport Modeling}. PIET-43741-TM-963, PNNL-15870 Rev. 1, 2011. \\
+%\url{https://www.pnnl.gov/main/publications/external/technical_reports/PNNL-15870Rev1.pdf} accessed: 2018. Nov. 29.
+%
+%\bibitem{fispact} 
+%M. Fleming, T. Stainer, M. Gilbert  
+%\textit{The FISPACT-II User Manual}. UKAEA-R(18)001, UK Atomic Energy Authority, 2018. \\
+%\url{http://www.ccfe.ac.uk/FISPACT-II/documentation/UKAEA-R18001.pdf} accessed: 2010. Apr. 29.
+%
+%\bibitem{mcnp}
+%X-5 Monte Carlo Team
+%\textit{MCNP — A General Monte Carlo N-Particle Transport Code, Version 5, Volume I: Overview and Theory}. LA-UR-03-1987, 2003
+%
+%\bibitem{icrp119} 
+%K. Eckerman, J. Harrison, H-G. Menzel, C.H. Clemen  
+%\textit{ICRP Publication 119: Compendium of Dose Coefficients based on ICRP Publication 60}. Annals of the ICRP volume 42 number 4, 2013. \\
+%\url{http://www.sciencedirect.com/science/article/pii/S0146645313000110} accessed: 2018. Nov. 29.
+%
+%\bibitem{eaf2010} 
+%L. W. Packer, J-Ch. Sublet  
+%\textit{The European Activation File: EAF-2010 biological, clearance and 
+%transport libraries}. CCFE-R (10 )04, EASY Documentation Series, 2010. \\
+%\url{http://www.ccfe.ac.uk/EASY-data/eaf2010/Docs/EAF_Hazards_2010.pdf} accessed: 2018. Nov. 29.
+%
+%\bibitem{icrp116} 
+%N. Petoussi-Henss, W.E. Bolch, K.F. Eckerman, A. Endo, N. Hertel, J. Hunt, M. Pelliccioni, H. Schlattl, M. Zankl
+%\textit{ICRP Publication 116: Conversion Coefficients for Radiological Protection Quantities for External Radiation Exposures}. Annals of the ICRP volume 40 number 2, 2010. 
+%
+%\bibitem{mcr2s}
+%T. Eade, D. Stonell, A. Turner
+%\textit{MCR2S unstructured mesh capabilities for use in shutdown dose rate analysis}
+%Fusion Engineering and Design volume 100, 2015
+%
+%\bibitem{jsir2s}
+%K. Ambro\v{z}i\v{c} and L. Snoj
+%\textit{JSIR2S code for delayed radiation simulations: Validation against measurements at the JSI TRIGA reactor}
+%Progress in Nuclear Energy volume 129, 2020
+%
+%
+%%\bibitem{icrp119} 
+%%K. Eckerman, J. Harrison, H-G. Menzel, C.H. Clemen  
+%%\textit{ICRP Publication 119: Compendium of Dose Coefficients based on ICRP Publication 60}. Annals of the ICRP volume 42 number 4, 2013. \\
+%%\url{http://www.sciencedirect.com/science/article/pii/S0146645313000110} accessed: 2018. Nov. 29.
+%
+%%\bibitem{nrc}
+%%NRC Regulations (10 CFR) Part 20, Appendix B: \url{https://www.nrc.gov/reading-rm/doc-collections/cfr/part020/part020-appb.html} accessed: 2018. Nov. 29.
+%
+%
+%\end{thebibliography}
+
+
+
+\end{document}
