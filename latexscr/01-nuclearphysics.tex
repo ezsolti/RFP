@@ -41,7 +41,7 @@ The main purpose of building nuclear reactors is to extract the energy from nucl
 \text{neutron}+{}^{235}\text{U} \rightarrow \text{fission products} + \text{neutron(s)} + \text{energy}
 \]
 
-From this reaction energy is released in the form of kinetic energy of the products (which heat up the surrounding by bouncing on other atoms) and radiation. It is also apparent that the neutrons emerging from the reaction can induce further fission events, hence it is possible to sustain a chain reaction in the reactor core. Neutrons may however enter reactions other than fission, or leave the reactor core without participating in any reaction relevant to the chain reaction within the core. Therefore, it is important to balance the number of neutrons initiating fission events and the number of neutrons lost for the chain reaction. Designing the neutron economy of a nuclear reactor is one of the primary subjects of nuclear reactor physics or neutronics. 
+From this reaction energy is released in the form of kinetic energy of the products (which heats up the surrounding by bouncing on other atoms) and radiation. It is also apparent that the neutrons emerging from the reaction can induce further fission events, hence it is possible to sustain a chain reaction in the reactor core. Neutrons may however enter reactions other than fission, or leave the reactor core without participating in any reaction relevant to the chain reaction within the core. Therefore, it is important to balance the number of neutrons initiating fission events and the number of neutrons lost for the chain reaction. Designing the neutron economy of a nuclear reactor is one of the primary subjects of nuclear reactor physics or neutronics. 
 
 In order to study the neutron induced chain reaction in a given reactor core we have to understand the physics of nuclear reactions. Since in most of the reactor cores there is a large number of neutrons (10-100 millions per cm${}^3$), usually the description of the average behavior of neutrons is adequate. Thus we will deterministic equations to describe the neutron population of the system. We will however see the most accurate study can performed with a stochastic approach based on Monte Carlo particle transport methods. Nevertheless, both of these approaches require the knowledge of the probabilities of neutron-nuclear reactions occurring, which is a subject of nuclear physics
 
@@ -104,9 +104,6 @@ where $\delta = 1$ for even-even nuclei, $\delta = -1$ for odd-odd nuclei and $\
 \end{itemize}
  
 
-(Note: that all terms in the formula have a physical meaning: volume term, asymmetry term, surface term, Coulomb term and pairing term. Make sure based on the text book that you understand these).
-
-
 \subsection{Nuclear reactions}
 
 As said before there are two type of nuclear reactions important in the context of reactor physics:
@@ -123,7 +120,7 @@ In decay processes the nucleus undergoes a transformation spontaneously  which r
 \begin{itemize}
 \item $\alpha$-decay: a He nucleus is emitted for heavier nuclides (when the repulsive Coulomb force overcomes the attractive nuclear force)  ${}_Z^A\text{X} \rightarrow {}_{Z-2}^{A-4}\text{Y} + {}_2^4\text{He} + Q$.
 \item $\beta^-$-decay: a neutron in the nucleus is transformed into a proton and an electron: ${}_Z^A\text{X} \rightarrow {}_{Z+1}^{A}\text{Y} + e^-+\bar\nu_e + Q$
-\item $\beta^+$-decay: a proton in the nucleus is transformed into a neutron and a positron: ${}_Z^A\text{X} \rightarrow {}_{Z-1}^{A}\text{Y} + e^-+\nu_e + Q$
+\item $\beta^+$-decay: a proton in the nucleus is transformed into a neutron and a positron: ${}_Z^A\text{X} \rightarrow {}_{Z-1}^{A}\text{Y} + e^{+}+\nu_e + Q$
 \item $\gamma$-decay: when the nucleus is in an excited state it can release energy in the form of $\gamma$ photons to reach a lower energy level or the ground state. The energy of the gamma photons is characteristic to the nuclide. ${}_Z^A\text{X}^*\rightarrow {}_Z^A\text{X} + \gamma$
 \item neutron emission: as we will see later in the course some nuclides emit a neutron following a $\beta$-decay. This process has a great importance in reactor physics.
 \end{itemize}
@@ -164,7 +161,7 @@ Of course as we will see soon, this energy is released over thousands of years.
 \protect \centering{
 \includegraphics[scale=0.46] {figures/01-radioactivdecay_daughterparent.png}
 \includegraphics[scale=0.46] {figures/01-radioactivdecay_daughterparent_LongDaughter.png}}\protect
-\caption{\label{fig:decay} \footnotesize{Decay of parent and daughter nuclide (Random notes a case when the decay times are sampled from an exponential distribution). Top: $T_{1/2,P} \approx T_{1/2,D}$. Bottom	: $T_{1/2,P} << T_{1/2,D}$}}
+\caption{\label{fig:decay} \footnotesize{Decay of parent and daughter nuclide (Random notes a case when the decay times are sampled from an exponential distribution). Top: $T_{1/2,P} > T_{1/2,D}$. Bottom	: $T_{1/2,P} << T_{1/2,D}$}}
 \end{figure}
 
 The fundamental law of decay is that (based on observations) the probability of the decay of a nucleus in a given time interval is constant. This means that the chance to decay does not depend on the age of the nucleus. In other words, if we have more nuclei, the rate of decays (or the change in the number of nuclei in time) is proportional to the number of nuclei:
@@ -173,13 +170,13 @@ The fundamental law of decay is that (based on observations) the probability of 
 \frac{dN}{dt}=-\lambda N(t)
 \end{equation}
 
-where the decay constant $\lambda \: [s^{-1}]$ is characteristic to the type of nuclide and where $N(t)$ is the number of nuclei. However often it is more practical to write up such equation for the number density (in $\#/cm^3$). The solution to this equation is
+\noindent where the decay constant $\lambda \: [s^{-1}]$ is characteristic to the type of nuclide and where $N(t)$ is the number of nuclei. However often it is more practical to write up such equation for the number density (in $\#/cm^3$). The solution to this equation is
 
 \begin{equation}\label{eq:decay}
 N(t)=N_0e^{-\lambda t}
 \end{equation}
 
-with some initial number of nuclei (or number density) $N_0=N(t=0)$. Therefore rate or as often called the activity is
+\noindent with some initial number of nuclei (or number density) $N_0=N(t=0)$. Therefore rate or as often called the activity is
 
 \begin{equation}
 \text{Rate}=A(t)=\lambda N(t)=\lambda N_0e^{-\lambda t}
@@ -239,7 +236,7 @@ The analytic solution of this problem is shown for different decay constants in 
 
 \subsubsection*{Decay series}
 
-As mentioned above, in practice usually we encounter longer decay chains, an example to that are the decay series of the naturally occurring radionuclides ${}^{235}\text{U}$, ${}^{238}\text{U}$, ${}^{232}\text{Th}$ and ${}^{237}\text{Np}$ (however due to the relatively short half-life of ${}^{237}\text{Np}$ - compared to the age of Earth -, only a couple of nuclides of the last series occur in nature). Fig. \ref{fig:decaychain} illustrates the Actinium series (ie. the decay chain of ${}^{235}U$). One can observe that several decay event lead to the final stable product ${}^{207}Pb$.
+As mentioned above, in practice usually we encounter longer decay chains, an example to that are the decay series of the naturally occurring radionuclides ${}^{235}\text{U}$, ${}^{238}\text{U}$, ${}^{232}\text{Th}$ and ${}^{237}\text{Np}$ (however due to the relatively short half-life of ${}^{237}\text{Np}$ - compared to the age of Earth -, only a couple of nuclides of the last series occur in nature). Fig. \ref{fig:decaychain} illustrates the Actinium series (ie. the decay chain of ${}^{235}U$). One can observe that several decay events lead to the final stable product ${}^{207}Pb$.
 
 
 \begin{figure}[ht!]
@@ -286,7 +283,7 @@ for example the neutron capture reaction on ${}_{92}^{235}U$ can be written as:
 
 In general this class of reactions are often referred to as $(n,\gamma)$.
 
-Since nuclear collision reactions are usually accompanied by the release of absorption of energy, it is often included in the notation. For the reaction \eqref{eq:reaction} one can calculate the reaction energy as
+Since nuclear collision reactions are usually accompanied by the release or absorption of energy, it is often included in the notation. For the reaction \eqref{eq:reaction} one can calculate the reaction energy as
 
 \begin{equation}\label{eq:reactionQ}
 Q=[(m_a+M_X)-(M_Y+m_b)]c^2
@@ -316,47 +313,51 @@ When we think about collision reactions, most naturally we imagine these in the 
 \caption{\label{fig:LABCM} \footnotesize{LAB and CM frames.}}
 \end{figure}
 
-Let's consider the nucleus with mass $M$ at location $R_L$ in the LAB frame and a neutron with mass $m$ at the location $r_L$ in the LAB frame as illustrated in Fig. \ref{fig:LABCM}. We can then get the location of the center-of mass as 
+Let's consider the nucleus with mass $M$ at location $\mathbf{R}_L$ in the LAB frame and a neutron with mass $m$ at the location $\mathbf{r}_L$ in the LAB frame as illustrated in Fig. \ref{fig:LABCM}. We can then get the location of the center-of mass as 
 
 \begin{equation}
-\rho = \frac{mr_L+MR_L}{m+M}
+\mathbf{\rho} = \frac{m\mathbf{r}_L+M\mathbf{R}_L}{m+M}
 \end{equation}
 
 from which we can convert the locations from LAB to CM as 
 
 \begin{equation}
-r_C=r_L - \rho
+\mathbf{r}_C=\mathbf{r}_L - \mathbf{\rho}
+\end{equation}
+
+\noindent and
+
+\begin{equation}
+\mathbf{R}_C=\mathbf{R}_L - \mathbf{\rho}
+\end{equation}
+
+\noindent also
+
+$$m\mathbf{r}_c + M\mathbf{R}_c = \mathbf{0}$$
+
+We get similar formula for the velocities of the center of mass if we consider that the velocities in the LAB are $\mathbf{v}_L$ and $\mathbf{V}_L$ for the neutron and the nucleus. The center-of-mass travels with a velocity of
+
+\begin{equation}
+\mathbf{v}_{CM} = \frac{m\mathbf{v}_L+M\mathbf{V}_L}{m+M}
+\end{equation}
+
+And with that $\mathbf{v}_C=\mathbf{v}_L - \mathbf{v}_{CM}$ and $\mathbf{V}_C=\mathbf{V}_L - \mathbf{v}_{CM}$. Using such a reference frame is not always intuitive, however if we imagine that the target nucleus is at rest (which is usually not the case, since the target moves due to temperature, however this velocity is negligible for fast enough neutron energies), so $\mathbf{V}_L=0$, then the formalism further simplifies:
+
+\begin{equation}
+\mathbf{v}_{CM}=\frac{m}{m+M}\mathbf{v}_L
+\end{equation}
+
+\begin{equation}
+\mathbf{v}_C=\mathbf{v}_L-\mathbf{v}_{CM}=\frac{M}{m+M}\mathbf{v}_L
 \end{equation}
 
 and
 
 \begin{equation}
-R_C=R_L - \rho
+\mathbf{V}_C=-\mathbf{v}_{CM}=-\frac{m}{m+M}\mathbf{v}_L
 \end{equation}
 
-We get similar formula for the velocities of the center of mass if we consider that the velocities in the LAB are $v_L$ and $V_L$ for the neutron and the nucleus. The center-of-mass travels with a velocity of
-
-\begin{equation}
-v_{CM} = \frac{mv_L+MV_L}{m+M}
-\end{equation}
-
-And with that $v_C=v_L - v_{CM}$ and $V_C=V_L - v_{CM}$. Using such a reference frame is not always intuitive, however if we imagine that the target nucleus is at rest (which is usually not the case, since the target moves due to temperature, however this velocity is negligible for fast enough neutron energies), so $V_L=0$, then the formalism further simplifies:
-
-\begin{equation}
-v_{CM}=\frac{m}{m+M}
-\end{equation}
-
-\begin{equation}
-v_C=v_L-v_{CM}=\frac{m}{m+M}v_L
-\end{equation}
-
-and
-
-\begin{equation}
-V_C=-v_{CM}=-\frac{m}{m+M}v_L
-\end{equation}
-
-Thus the total momentum in CM is $p_C=mv_C+MV_C=0$, which means that the vector $v_C$ and $V_C$ are co-linear. In case of a scattering event, in the CM the particles are traveling towards each other before, and they travel back to back from each other after the scattering. Since in the following sometimes we will refer to the CM frame, it was important to introduce it at this stage. However, later we will use and review this formalism further to study the kinematics of elastic scattering reactions.
+Thus the total momentum in CM is $\mathbf{p}_C=m\mathbf{v}_C+M\mathbf{V}_C=\mathbf{0}$, which means that the vector $\mathbf{v}_C$ and $\mathbf{V}_C$ are co-linear. In case of a scattering event, in the CM the particles are traveling towards each other before, and they travel back to back from each other after the scattering. Since in the following sometimes we will refer to the CM frame, it was important to introduce it at this stage. However, later we will use and review this formalism further to study the kinematics of elastic scattering reactions.
 
 \subsection{Neutron cross sections}
 
@@ -376,7 +377,7 @@ Imagine a thin foil (one atomic layer thick, so no nuclei is shielded by any oth
 R[\frac{\#}{cm^2s}]=\sigma [cm^2] I [\frac{\#}{cm^2s}] N_A [\frac{\#}{cm^2}]
 \end{equation}
 
-thus
+thus\footnote{Some might be bothered that $\#\#$ should be $\#^2$, but mathematically speaking we could substitute $\#=1$, and physically speaking we have to see that in $I$ the number $\#$ refers to neutrons, in $N_A$ it refers to nuclei, and in $R$ it refers to the reaction, which indeed needs both a neutron and a nucleus.}
 
 \begin{equation}\label{eq:sigma}
 \sigma=\frac{R}{IN_A}=\frac{R/N_A}{I}=\frac{\text{Number of reactions per nucleus per second}}{\text{Number of incident neutrons per cm}^2\text{ per second}}
@@ -386,7 +387,7 @@ If we imagine the neutrons and the nuclei as classical particles (like solid sph
 
 Nevertheless, neutrons and nuclei do not behave as classical particles, thus one needs to take into account the quantum mechanical nature of such reactions, so the geometrical interpretation of the cross section is not always correct. Due to resonance effects, some nuclei will have very different microscopic cross sections very different from the geometrical cross sections. 
 
-It is also clear, that the probability per nuclear that a neutron interacts with it is $\sigma/A$, where A is the total cross sectional area.
+%It is also clear, that the probability per nuclear that a neutron interacts with it is $\sigma/A$, where A is the total cross sectional area.
 
 \begin{figure}[ht!]
 \protect \centering{
