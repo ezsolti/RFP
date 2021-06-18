@@ -609,8 +609,8 @@ In total, the shutdown margin, temperature and power defect, and fuel burnup det
 During the operation of a nuclear reactor the nuclear fuel evolves. This evolution has some technological reasons (corrosion, swelling of the fuel pellets due to gaseous fission products, radiation damage), and reactor physics reasons. In this course we are going to focus only on the reactor physics aspects of this evolution. From our previous studies we already know that the processes leading to a change in the nuclide inventory of the fuel are the following:
 
 \begin{itemize}
-\item Due to fission events the amount fissile nuclei decreases. Thus the reactivity of the fuel decreases.
-\item Due to fission event fission products appear in the fuel with medium mass number. Some of these nuclides have high absorption cross sections (they are considered to be \textit{reactor poison}.
+\item Due to fission events the amount of fissile nuclei decreases. Thus the reactivity of the fuel decreases.
+\item Due to fission events, fission products appear in the fuel with medium mass number. Some of these nuclides have high absorption cross sections (they are considered to be \textit{reactor poison}.
 \item Due to neutron capture of uranium nuclei transuranic elements are created, some of these nuclei are fissile.
 \end{itemize}
 
@@ -618,7 +618,7 @@ Altogether these processes leading to the evolution of fuel are called burnup or
 
 \subsubsection{Depletion chains}
 
-As we saw before there are several neutron collision reactions (eg. fission, capture, (n,\textit{i}n) reactions), and several decay reactions which will transform a nuclide into an other nuclide. Similarly, as we saw before for decay series (Fig. \ref{fig:decaychain}, we can develop depletion chains, however these are fairly complex if every possible reaction is taken into account. The top of Fig. \ref{fig:depletionchain} shows all the (n,$\gamma$) and (n,2n) reaction, and all alpha and beta decay paths for when starting to irradiate U238, whereas the lower figure shows some of the most important paths for the uranium depletion chain.
+As we saw before there are several neutron collision reactions (eg. fission, capture, (n,\textit{i}n) reactions), and several decay reactions which will transform a nuclide into an other nuclide. Similarly, as we saw before for decay series (Fig. \ref{fig:decaychain}, we can develop depletion chains, however these are fairly complex if every possible reaction is taken into account. The top of Fig. \ref{fig:depletionchain} shows all the (n,$\gamma$) and (n,2n) reactions, and all alpha and beta decay paths for an initial load of U238, whereas the lower figure shows some of the most important paths for the uranium depletion chain.
 
 \begin{figure}[ht!]
 \protect \centering{
@@ -627,20 +627,20 @@ As we saw before there are several neutron collision reactions (eg. fission, cap
 \caption{\label{fig:depletionchain} \footnotesize{Illustration of depletion chains.}}
 \end{figure}
 
-If we wanted to  make a very accurate analysis of the evolution of fuel under irradiation we should consider every possible scenario. How ever for practical applications we can simplify depletion chains. For example we can neglect the decay of uranium isotopes (and the neutron reactions on the daughters of these isotopes) due to the long half-lives. That said, we can consider different depletion chains for uranium fueled and thorium fueled reactors. (In thorium fuel reactors the Th232 nuclide is first converted into fissile U233, however they do not have yet a widespread use so in the following we do not discuss this).
+If we wanted to  make a very accurate analysis of the evolution of fuel during irradiation we should consider every possible pathway. However, for practical applications we can simplify depletion chains. For example, we can neglect the decay of uranium isotopes (and the neutron reactions on the daughters of these isotopes) due to the long half-lives. That said, we can consider different depletion chains for uranium fueled and thorium fueled reactors. (In thorium fuel reactors the Th232 nuclide is first converted into fissile U233, however they do not have yet a widespread use so in the following we do not discuss this).
 
-\subsubsection{Batemen-equations}
+\subsubsection{Bateman-equations}
 
 In the following we will write up a rather general equation describing the depletion. However, first we will use some simple examples to review the basic concepts.
 
 \subsubsection*{One nuclide with source and decay}
 
-Now let's consider an example where we are interested in the time evolution of a  radioactive nuclide $N$ which is constantly created (for example from a neutron reaction for which the cross section is given by $\Sigma$ on a parent nuclide), and for which $N(t=0)=0$. We can consider that we have a lot of parent nuclei, therefore the change in its number is negligible (therefore the production rate is constant) This example is a very fair model for cases when a small target (for example a foil) is being irradiated, but it could be applicable for a fission product.
+Now let's consider an example where we are interested in the time evolution of a radioactive nuclide with concentration $N$ which is constantly created (for example from a neutron reaction for which the cross section is given by $\Sigma$ on a parent nuclide), and for which $N(t=0)=0$. We can consider that we have a lot of parent nuclei, therefore the change in its number is negligible (therefore the production rate is constant) This example is a very fair model for cases when a small target (for example a foil) is being irradiated, but it could be applicable for a fission product.
 
 The change of amount (or density) of the nuclide $N$:
 
 \begin{equation}
-\frac{N}{dt}=-\lambda N + \underbrace{\Sigma\phi}_{\text{production rate}}
+\frac{dN}{dt}=-\lambda N + \underbrace{\Sigma\phi}_{\text{production rate}}
 \end{equation}
 
 \begin{equation}
@@ -653,10 +653,10 @@ N(t)=\frac{\Sigma\phi}{\lambda}[1-exp(-\lambda t)] \quad \Rightarrow \quad A(t)=
 A(t\rightarrow \infty)=A_s=\Sigma\phi
 \end{equation}
 
-\noindent We see that infinity the activity and the concentration would saturate at a constant level (if the parent nuclide is not lost). How quickly we reach this saturation level depends on the half-live of the nuclide (the longer lived the nuclide is the longer it takes to reach saturation). If the irradiation takes place only for a finite time $t_{irr}$ after which the material is left to "cool", then the new differential equation to describe the change is simply
+\noindent We see that infinity the activity and the concentration would saturate at a constant level (if the parent nuclide is not lost). How quickly we reach this saturation level depends on the half-life of the nuclide (the longer lived the nuclide is the longer it takes to reach saturation). If the irradiation takes place only for a finite time $t_{irr}$ after which the material is left to "cool", then the new differential equation to describe the change is simply
 
 \begin{equation}
-\frac{N^{after}}{dt}=-\lambda N^{after}
+\frac{dN^{after}}{dt}=-\lambda N^{after}
 \end{equation}
 
 \noindent where "after" refers to "after irradiation". The initial condition of this differential equation is $N^{after}(0)=N(t_{irr}$. The solution is simply the exponential decay:
@@ -675,7 +675,7 @@ A(t_{cool}>t_{irr}=\Sigma\Phi[1-exp(-\lambda t_{irr})]\cdot exp(-\lambda t_{cool
 
 Fig. \ref{fig:irradiationconc} shows a simple sketch of the change of the nuclide in this simplified model. Even though the model is simplified, the general trends are important here to remember, because in fact we see similar trends in nuclear fuel irradiations (where the amount of parent nuclide, such as uranium is several orders of magnitude higher than the amount of the fission products).
 
-\subsubsection*{Only one nuclide}
+\subsubsection*{Only one nuclide: lost to nuclear reaction}
 
 First let's consider a very simple situation when only one fuel isotope is present (eg. Uranium-235 $N_5$). For this isotope the decay is negligible, so we can assume that the only loss is due to the neutron absorption of  the isotope (described by $\sigma_5^a$), and there is no production of this isotope.
 
@@ -692,7 +692,7 @@ N_5(r,t)=N_5(r,0)\exp\Big[-\sigma_5^a\int\limits_0^t\phi(r,t')dt'\Big]
 or by introducing the fluence
 
 \begin{equation}\label{eq:fluence}
-\Phi(r,t)=\int\limits_0^t\phi(r,t')
+\Phi(r,t)=\int\limits_0^t\phi(r,t')dt'
 \end{equation}
 
 the solution is
@@ -716,7 +716,7 @@ Similarly, due to practical reasons we can argue, that in the following we can n
 
 \subsubsection*{General formalism}
 
-In order to mathematically describe the  evolution of fuel under irradiation we can extend or theory from radioactive decay. Remember, we developed a coupled set of ordinary differential equations to describe the evolution of radioactive parents and their daughters. We could write up similar equations by including further source terms (such as fission and neutron reactions).
+In order to mathematically describe the  evolution of fuel under irradiation we can extend or theory from radioactive decay. Remember, we developed a coupled set of ordinary differential equations to describe the evolution of radioactive parents and their daughters. We could write up similar equations by including further source and loss terms (such as fission and neutron reactions).
 
 Let's consider the change of nuclide \textit{i} over time. The nuclide can be created due to the decay of other nuclides \textit{j}, and due to the neutron reactions on other nuclides \textit{j}. These are the production terms. Note, that in case nuclide \textit{i} is created from a fission event, then $\sigma_{j\rightarrow i}$ contains both the fission cross section of \textit{j} and the fission yield that nuclide \textit{i} is created from the fission of \textit{j}. The nuclide can be lost due to its own radioactive decay and due to absorption reactions which will produce other nuclides. These loss terms are essentially production terms for other nuclides.
 
@@ -726,7 +726,7 @@ Let's consider the change of nuclide \textit{i} over time. The nuclide can be cr
 
 \noindent where all the cross sections $\sigma$ are 1-group cross sections obtained by weighting the cross sections $\sigma(E)$ by the neutron spectrum. Therefore the $\sigma\phi N$ terms are reaction rates.
 
-One can see that upon formulating such a differential equation for all the nuclides one gets a coupled set of equations which can be brought arranged as a matrix equation
+One can see that upon formulating such a differential equation for all the nuclides one gets a coupled set of equations which can be arranged as a matrix equation
 
 \begin{equation}
 \dot{\mathbf{N}}=\mathbf{AN}
@@ -752,9 +752,24 @@ For energy producing reactors it is more common to give the amount of energy pro
 
 \noindent since the macroscopic fission cross section $\Sigma_f$ also covers the fissile plutonium nuclei which are produced during the reactor operation and which contribute to the energy production. 
 
-%\subsubsection{Conversion ratio}
+\subsubsection{Conversion ratio}
 
-%bla
+As mentioned earlier, during irradiation fissile nuclei is created due to neutron capture in fertile nuclei. In order to quantify how much fissile material is produced one can define the breeding ration
+
+\begin{equation*}
+        BR=\frac{\mathrm{Fissile\: material\: produced}}{\mathrm{Fissile\: material\: destroyed}}
+\end{equation*}
+
+\noindent which then defines the type of the reactor.
+
+\begin{itemize}
+\item $BR\geq 1$: breeder reactor   
+\item $BR\approx 1$: iso-breeder or self-breeder reactor
+\item $BR\leq 1$: converter or burner reactor
+\end{itemize}
+
+It is however not entirely straightforward to determine the breeding ratio of a nuclear reactor. Clearly, such quantity can be based on reaction rates (differential form) or the produced and destroyed mass of the material integrated over cycle (integral form). It is also notable that for fast breeder reactors several nuclides become "fissile", which further complicates the definition of such ratio. Here, we just mention that the topic has a wide literature, however we do not intend to take a closer look.
+
 
 \subsubsection{Reactor poisoning: Xenon}
 

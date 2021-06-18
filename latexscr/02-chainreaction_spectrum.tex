@@ -58,7 +58,7 @@ The multiplication factor $k$ can be
 
 When operating the reactor, we usually wish to operate in critical conditions, when the number of neutrons, thus the fission rate, thus the power of the reactor is constant. Nevertheless, the reactor must be able to be supercritical (to increase the power to the required level) and subcritical (to decrease the power or to completely shut down the reactor) as well. Thus one needs to be able to control the reactor.
 
-Nevertheless this often quoted life-cycle point of view definition of the multiplication factor Eq. \ref{eq:kdefault} can be misleading, and is also impractical. The fact is, that it is difficult to follow "one given" generation of neutrons. In fact, in a reactor several "neutron trees" develop at the same time, therefore it is difficult to tag them to decide which generation do they belong too. Also, Fig. \ref{fig:randomtrees} illustrates a simple case: a neutron has probability $p$ to enter fission, and it does otherwise, and in a fission $nu$ neutrons can be generated. A tree with critical conditions might die out, or grow exponentially, and in fact it will be only for the average of several trees that we can obtain the same number of neutrons in the succeeding generations. Of course, in a real nuclear reactor the number of neutrons are very high ($10^9$ neutron/cm$^3$), so we will in fact only see the average behavior. Lastly, what might be misleading here is that the time between the birth and death of a neutron is random (since it depends on the random path distance between collision, and on the number of scattering a neutron enters etc), thus neutrons of the same generation are not aligned so well in time as shown in Fig. \ref{eq:kdefault}. To summarize, care should be taken when thinking of the neutron transport in generations. 
+Nevertheless this often quoted life-cycle point of view definition of the multiplication factor Eq. \ref{eq:kdefault} can be misleading, and is also impractical. The fact is, that it is difficult to follow "one given" generation of neutrons. In fact, in a reactor several "neutron trees" develop at the same time, therefore it is difficult to tag them to decide which generation do they belong too. Also, Fig. \ref{fig:randomtrees} illustrates a simple case: a neutron has probability $p$ to enter fission, and it is lost from the chain otherwise, and in a fission $nu$ neutrons can be generated. A tree with critical conditions might die out, or grow exponentially, and in fact it will be only for the average of several trees that we can obtain the same number of neutrons in the succeeding generations. Of course, in a real nuclear reactor the number of neutrons are very high ($10^9$ neutron/cm$^3$), so we will in fact only see the average behavior. Lastly, what might be misleading here is that the time between the birth and death of a neutron is random (since it depends on the random path distance between collision, and on the number of scattering a neutron enters etc), thus neutrons of the same generation are not aligned so well in time as shown in Fig. \ref{eq:kdefault}. To summarize, care should be taken when thinking of the neutron transport in generations. 
 
 \begin{figure}[ht!]
 \protect \centering{
@@ -76,7 +76,7 @@ k = \frac{\rm {Rate \: of \: neutron \: production}}{\rm Rate \: of \: neutron \
 \end{equation}
 
 
-\noindent where the time can be explicitly considered for the rates (eg. fuel evolution affects production rate, as we will see in later chapters). We will see later, that infact we will try to define the multiplication factor through reaction rates. We can define the neutron lifetime as
+\noindent where the time can be explicitly considered for the rates (eg. fuel evolution affects production rate, as we will see in later chapters). We will see later, that in fact we will to define the multiplication factor through reaction rates when developing equations to describe neutron transport. We can define the neutron lifetime as
 
 \begin{equation}\label{eq:ell}
 \ell=\frac{N(t)}{L(t)}
@@ -103,7 +103,7 @@ which can be rearranged with \eqref{eq:krates} and \eqref{eq:krates}
 N(t)=N(0)\exp\Bigg[\Bigg(\frac{k-1}{\ell}\Bigg)t\Bigg]
 \end{equation}
 
-\noindent where the value of $k$ will define the number of neutrons. In Fig. \ref{fig:basickinetics} one can see that for a supercritical system the average number of neutrons increases in time, for a critical system it stays constant and for subcritical system it decreases. This is in agreement with our previous definitions.
+\noindent where the value of $k$ will determine the number of neutrons overtime. In Fig. \ref{fig:basickinetics} one can see that for a supercritical system the average number of neutrons increases in time, for a critical system it stays constant and for subcritical system it decreases. This is in agreement with our previous definitions.
 
 \begin{figure}[ht!]
 \protect \centering{
@@ -111,7 +111,7 @@ N(t)=N(0)\exp\Bigg[\Bigg(\frac{k-1}{\ell}\Bigg)t\Bigg]
 \caption{\label{fig:basickinetics} \footnotesize{Number of neutrons over time.}}
 \end{figure}
 
-As a note we can mention here that the average neutron lifetime $\ell$ is around $10^{-4}s$, thus in a slightly supercritical system with $k=1.001$ the number of neutrons would increase by a factor of 22026. Such a small variation in the multiplication factor is very common in reactors, but such an increase would clearly not be controllable. But as we will see later, the presence of delayed neutrons does significantly increase the average lifetime of neutrons, and it makes the time behavior of reactors manageable.
+As a note we can mention here that the average neutron lifetime $\ell$ is around $10^{-4}s$, thus in a slightly supercritical system with $k=1.001$ the number of neutrons would increase by a factor of 22026 in a second. Such a small variation in the multiplication factor is very common in reactors, but such an increase would clearly not be controllable. But as we will see later, the presence of delayed neutrons does significantly increase the average lifetime of neutrons, and it makes the time behavior of reactors manageable.
 
 \subsubsection*{2 factor formula}
 
@@ -203,9 +203,9 @@ The value of $\xi$ characterizes how many scattering reactions are needed to slo
 
 $$\frac{1}{\xi}\ln(2 MeV/0.025 eV)=\frac{18.2}{\xi}$$
 
-A slowing down ability can be characterized with \textit{moderating power} $\xi\Sigma_s$: the logarithmic energy loss per distance traveled by the neutron. However, when assessing how good a moderator is, we have to consider also how much neutrons are absorbed by the moderator, therefore we can define the \textit{moderating ratio}
+The ability of slowing down neutrons can be characterized with \textit{moderating power} $\xi\Sigma_s$: the logarithmic energy loss per distance traveled by the neutron. However, when assessing how good a moderator is, we have to consider also how much neutrons are absorbed by the moderator, therefore we can define the \textit{moderating ratio}
 
-$$\xi\Sigma_s\Sigma_a$$
+$$\xi\Sigma_s/\Sigma_a$$
 
 \noindent As we see from Table \ref{tab:moderator}, the best moderators the ones containing low mass nuclei. However we can also notice, that even though hydrogen is the lightest, it is not the best moderator, when considering absorption as well. This is the reason that for a reactor moderated with light water one needs to enrich uranium in order to make it critical. However if a reactor is moderated with heavy water (such as the CANDU reactors) or graphite (such as the MAGNOX reactors), criticality can be achieved with natural uranium as well. There is obviously a compromise whether we spend our efforts on enriching the fuel, or producing heavy water. 
 
@@ -257,7 +257,7 @@ For thermal energies, where neutrons can both loose or gain energy in scattering
 
 $$\phi(E)\propto E\exp\big(-\frac{E}{kT}\big)$$
 
-\noindent although it has to be mentioned that in reality due to absorbing events taking place at these energies, the real neutron spectrum is slightly shifter to higher energies, this is called spectral hardening.
+\noindent although it has to be mentioned that in reality due to absorbing events taking place at these energies, the real neutron spectrum is slightly shifted to higher energies, this is called spectral hardening.
 
 \subsubsection*{Slowing down region}
 
@@ -279,12 +279,12 @@ In case of steady state, we can assume that the source terms (the source and the
 
 \noindent is the \textit{slowing down equation} which as we will see in the next chapter could be derived directly from the general neutron transport equation.
 
-Let us consider we consider that inelastic scattering can be neglected for energies below 100 keV and elastic scattering can be considered isotropic in CM, and recall the scattering kernel for elastic scattering:\footnote{Note, that previously we used the $(E\rightarrow E')$ notation, since we were curious which energies are reached from our initial energy $E$, now we swapped the notation of initial and final energy, because we are more interested in which energies contribute to our final energy, and it is more convenient to develop the equation for variable $E$. Nevertheless the meaning is still the same: $E_{initial}\rightarrow E_{final}$}
+Let us consider that inelastic scattering can be neglected for energies below 100 keV and elastic scattering can be considered isotropic in CM, and recall the scattering kernel for elastic scattering:\footnote{Note, that previously we used the $(E\rightarrow E')$ notation, since we were curious which energies are reached from our initial energy $E$, now we swapped the notation of initial and final energy, because we are more interested in which energies contribute to our final energy, and it is more convenient to develop the equation for variable $E$. Nevertheless the meaning is still the same: $E_{initial}\rightarrow E_{final}$}
 
 \begin{equation}\label{eq:scatkernel}
     \Sigma_s(E'\rightarrow E) = 
     \begin{cases}
-      \frac{\Sigma_s(E')}{(1-\alpha)E'} & \text{if} \: \alpha E \leq E' \leq E \\
+      \frac{\Sigma_s(E')}{(1-\alpha)E'} & \text{if} \: \alpha E' \leq E \leq E' \\
       0 & \text{otherwise}
     \end{cases}
 \end{equation}
@@ -315,7 +315,7 @@ $$F(u)=\Sigma_t(u)\Phi(u)=\Sigma_t(E)\Phi(E)E=c$$
 
 \noindent if we substitute $\Sigma_t(E)\Phi(E)=c/E$ in Eq. \eqref{eq:slowingdown}, we will find that indeed it is a solution if $\Sigma_t=\Sigma_s$ and at energies below the energies of the source (ie. when S(E)=0).
 
-We can obtain $c$ by noticing that the number of neutrons per unit time whose energy passes above a given lethargy is the same as the number of neutrons emitted per unit time since there is no absorption. The number of neutrons per unit time is simply the integral of the source neutron spectrum.
+We can obtain $c$ by noticing that the number of neutrons per unit time whose energy passes above a given lethargy is the same as the number of neutrons emitted per unit time since there is no absorption. The number of neutrons emitted per unit time is simply the integral of the source neutron spectrum.
 
 $$S=\int\limits_{E_S}^\infty S(E)dE$$
 
@@ -329,7 +329,7 @@ $$\Phi(E)=\frac{S}{\xi E\Sigma_s(E)}=\frac{S}{\xi E\Sigma_t(E)}$$
 
 \noindent therefore if we combine our comments on the thermal and fast regions with our recent findings, we can illustrated our idealized neutron spectrum in Figure \ref{fig:idealneutronspectrum}. Notice that we have plotted both $\Phi(E)$ and the lethargic spectrum $E\Phi(E)$. As we will see later, indeed this rough sketch explains the main features of our actual neutron spectra in thermal systems rather well.
 
-It also needs to be highlighted again, that these results are valid only at energy regions below the source energy. This is often called \textit{asymptotic region}. It is also important to point out that the scattering cross section is can be considered independent of energy in the slowing down region, therefore $\Phi(E)\propto 1/E$.
+It also needs to be highlighted again, that these results are valid only at energy regions below the source energy. This is often called \textit{asymptotic region}. It is also important to point out that the scattering cross section can be considered independent of energy in the slowing down region, therefore $\Phi(E)\propto 1/E$.
 
 \begin{figure}[ht!]
 \protect \centering{
@@ -371,7 +371,7 @@ $$\phi(E) \approx \frac{E_1\phi(E_1)}{E}$$
 
 $$\phi(E)E \ll \phi(E_1)E_1$$
 
-\noindent the flux is greatly decreased at the resonance energy as illustrated in Figure~\ref{fig:selfshielding} for the notable resonance of U-238 at 6.67 eV. Neutrons that are scattered into the energy range of the resonance are absorbed, but those neutrons that scatter from energies above the resonances to energies below the resonances are not affected. However, due to the reduction in of the flux, rate of resonance absorption also decreases, this is called \textit{energy self-shielding}.
+\noindent the flux is greatly decreased at the resonance energy as illustrated in Figure~\ref{fig:selfshielding} for the notable resonance of U-238 at 6.67 eV. Neutrons that are scattered into the energy range of the resonance are absorbed, but those neutrons that scatter from energies above the resonances to energies below the resonances are not affected. However, due to the reduction in the flux, rate of resonance absorption also decreases, this is called \textit{energy self-shielding}.
 
 \begin{figure}[ht!]
 \protect \centering{
@@ -400,7 +400,7 @@ is called resonance escape probability, because it gives the ratio of neutrons w
 
 $$\frac{S-\int\limits_E^{E_s}\Sigma_a(E')\Phi(E')dE'}{S}=p(E_S\rightarrow E)$$
 
-Let's recall the phenomena of Doppler-broadening (ie. that the height of the resonance decreases while the width of the resonance increases with temperature), although the area under the resonance is constant, neutrons slowing down in discrete steps will have a higher probability to interact with the resonance, therefore the resonance escape probability $p$ decreases. This, as we will see later when discussing feedback mechanisms, has an important implication on reactor safety: with increasing power, therefore increasing temperature the negative feedback of the Doppler-effect reduces the power.
+Let's recall the phenomena of Doppler-broadening (ie. that the height of the resonance decreases while the width of the resonance increases with temperature), although the area under the resonance is constant, neutrons slowing down in discrete steps will have a higher probability to interact with the resonance, therefore the resonance escape probability $p$ decreases as the temperature increases. This, as we will see later when discussing feedback mechanisms, has an important implication on reactor safety: with increasing power, therefore increasing temperature the negative feedback of the Doppler-effect reduces the power.
 
 % FOR FUTURE: RESONANCE INTEGRALS!!!
 %The slowing down equation \ref{eq:slowingdown} becomes

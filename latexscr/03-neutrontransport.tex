@@ -82,10 +82,10 @@ $$N(\mathbf{r},t)=\int^\infty_0N(\mathbf{r},E,t)dE=\int^\infty_0\int_{4\pi}n(\ma
 Then we can recall, that the actual physical quantity we can directly measure in a reactor is the reaction rate density (similar reaction rates can be defined for the energy integrated population density, or for the angular density):
 
 \begin{equation}
-R(\mathbf{r},E,t)dr^3dE=v(E)\Sigma(E) n(\mathbf{r},E,t)dr^3dE
+R(\mathbf{r},E,t)dr^3dE=v(E)\Sigma(E) N(\mathbf{r},E,t)dr^3dE
 \end{equation}
 
-Where, due to convenience we usually introduce the neutron flux (again, we can analogously define scalar and angular quantities)
+\noindent where, due to convenience we usually introduce the neutron flux (again, we can analogously define scalar and angular quantities)
 
 \begin{equation}
 \phi(\mathbf{r},E,\mathbf{\Omega},t)=v(E)n(\mathbf{r},E,\mathbf{\Omega},t)
@@ -213,7 +213,7 @@ The neutron transport equation is an exact description of the neutron distributi
 \begin{itemize}
 \item we have seven independent variables.
 \item the spatial dependence of the cross sections is complicated
-\item the energy dependence of cross sections are also complicated (resonances, thresholds)
+\item the energy dependence of cross sections is complicated (resonances, thresholds)
 \end{itemize}
 
 In order to solve such an equation, we would need computers, but even so it is too difficult. So, the task is usually, to simplify the transport equation based on reasonable approximations. However this is a topic for more advanced courses. For the moment we would just summarize how the variables could be handled.
@@ -273,7 +273,7 @@ Note that it might be a bit counter intuitive that for the weighted cross sectio
 \end{figure} 
 
 
-If we were doing a brute force calculation, with 100x100x100 space points, 10 energy groups, 10 directions, we would obtain 10$^8$ equations for each time step, which is difficult to handle even with today's computers. Therefore some physical insight insight is often needed to eliminate variables. For a example critical system is time independent, thus the time variable can be omitted. The geometry often shows some symmetry, therefore the number of dimensions can be reduced. Or as we will see later, we can apply the diffusion approximation to eliminate angular dependence. Altogether, numerical methods solving the neutron transport are the subject of more advanced computational reactor physics discussions.
+If we were doing a brute force calculation, with 100x100x100 space points, 10 energy groups, 10 directions, we would obtain 10$^8$ equations for each time step, which is difficult to handle even with today's computers. Therefore some physical insight is often needed to eliminate variables. For a example critical system is time independent, thus the time variable can be omitted. The geometry often shows some symmetry, therefore the number of dimensions can be reduced. Or as we will see later, we can apply the diffusion approximation to eliminate angular dependence. Altogether, numerical methods solving the neutron transport are the subject of more advanced computational reactor physics discussions.
 
 \subsection{Neutron diffusion}
 
@@ -326,7 +326,7 @@ Out of these methods the 2-group method is usually used in industrial applicatio
 \begin{itemize}
 \item then all fission neutrons born in the same energy group: $\chi(E)=1$ 
 \item all scattering happens within the same group: $F(E' \rightarrow E)=1$
-\item therefore we do not care about the scattering cross section $\Sigma_s$ either. Remember that $\Sigma_t=\Sigma_s+\Sigma_a=\Sigma_s+\Sigma_f+\Sigma_c$, therefore $\Sigma_s-\Sigma_t=\Sigma_a$
+\item therefore we do not care about the scattering cross section $\Sigma_s$ either. Remember that $\Sigma_t=\Sigma_s+\Sigma_a=\Sigma_s+\Sigma_f+\Sigma_c$, therefore $\Sigma_s-\Sigma_t=-\Sigma_a$
 \end{itemize} 
 
 If we take into account all these we reach a more manageable equation (note that now even the speed $v$ is an average value):
@@ -365,7 +365,7 @@ For simplicity, let's assume, that our whole reactor is homogeneous which in pra
 +\bar\nu\Sigma_f\Phi(\mathbf{r},t)
 \end{equation}
 
-And finally let us handle the time dependence. Of course there are several cases of interest: in a non-multiplying system ($\Sigma_f=0$) the last term disappears and incase of a constant source we observe a steady state flux. 
+And finally let us handle the time dependence. Of course there are several cases of interest: in a non-multiplying system ($\Sigma_f=0$) the last term disappears and in case of a constant source we observe a steady state flux. 
 
 For a multiplying system without a source we can renormalize the fission source term by dividing it with $k$. For a supercritical system $k > 1$, the normalization depresses the fission neutron production rate. For a subcritical system $k < 1$, the normalization increases the fission neutron production rate. Thus after the normalization we would obtain a steady state problem
 
@@ -467,7 +467,7 @@ And we know that for a vacuum boundary $J_x^-(a)=0$, from which we find that the
 \begin{figure}[ht!]
 \protect \centering{
 \includegraphics[scale=0.46] {figures/04-slabflux.png}}\protect
-\caption{\label{fig:multislab} \footnotesize{Mathematicall correct solutions to the diffusion equation in a slab. $n=0$ is the fundamental mode.}}
+\caption{\label{fig:multislab} \footnotesize{Mathematically correct solutions to the diffusion equation in a slab. $n=0$ is the fundamental mode.}}
 \end{figure} 
 
 Note that the Helmoltz equation produces valid solutions at $B_{g,n}a=\frac{\pi}{2}+n\pi$, so $B_{g,n}=\frac{(2n+1)\pi}{2a}$. However those will not be physical, so we keep the $n=0$ fundamental mode, as shown in Figure \ref{fig:multislab}, and for this course we don't care about the other modes.
@@ -555,7 +555,7 @@ B_r^2+B_z^2=B^2
 The equation for the the axial dimension is exactly what we just had for the 1D slab, and in the general solution with the same thinking we can keep only the cosine 
 
 \[
-Z(z)=c_1\cos B_z
+Z(z)=c_1\cos B_zz
 \].  
 
 \noindent and by considering that the height of the reactor is $H$ (extrapolated), we arrive to
@@ -564,7 +564,7 @@ Z(z)=c_1\cos B_z
 Z(z)=c_1cos(\frac{\pi}{H}z)
 \]
 
-For the radial direction we need to consult our math books, and find that the function which could fulfill this equation is the Bessel function $J_0(B_rr)$. In fact, similarly as before here also the first and second kind Bessel functions would be solutions, but we drop the second kind to get positive values at $r=0$ as it is shown in Figure \ref{fig:cylinder}.
+For the radial dimension we need to consult our math books, and find that the function which could fulfill this equation is the Bessel function $J_0(B_rr)$. In fact, similarly as before here also the first and second kind Bessel functions would be solutions, but we drop the second kind to get positive values at $r=0$ as it is shown in Figure \ref{fig:cylinder}.
 
 \[
 R(r)=c_2J_0(\frac{2.405}{R}r)
@@ -665,7 +665,7 @@ As we saw from the reflected geometry, the 1-group diffusion theory cannot adequ
 
 In 2-group theory the energy boundaries are selected so that there is no upscattering from the thermal to the fast group. The typical boundaries are $E_2=0$, $E_1=1 eV$, $E_0=10 MeV$. In such group structure, we can assume that all the fission event contribute as a source only to the fast group, therefore $\chi_t=0$ and $\chi_f=1$.
 
-Let us summarize the gain and loss term in each of the groups (index $f$ refers to the fast group, and $t$ refers to the thermal group; when doubple indexes are encountered such as in $\Sigma_{f,t}$, the first term refers to the physical process, such as fission in this example, and the second to the energy group, such as thermal in this example).
+Let us summarize the gain and loss term in each of the groups (index $f$ refers to the fast group, and $t$ refers to the thermal group; when double indexes are encountered such as in $\Sigma_{f,t}$, the first term refers to the physical process, such as fission in this example, and the second to the energy group, such as thermal in this example).
 
 
 \begin{tabular}{c | c | c}
@@ -721,7 +721,7 @@ And notice that similarly as before, we could identify the terms as gains and lo
 It is noteworthy to mention that certain elements in the reactor, such as control rods, can drastically change the spatial distribution of neutrons in the core, and also have an impact on the multiplication factor of the system. Figure \ref{fig:controlrod} illustrates the influence of a control rod insertion on the axial flux. We can see that the peak of the flux will shift to deeper regions of the core. The impact of the rod on the reactivity 
 
 \[
-k=\frac{k-1}{k}
+\rho=\frac{k-1}{k}
 \]
 
 \noindent can be given by the control rod worth, which describes the change in the k-effective $\Delta k$ due to the insertion of the control rod.  

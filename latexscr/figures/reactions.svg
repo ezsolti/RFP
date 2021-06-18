@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
    height="297mm"
    viewBox="0 0 210 297"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.2 (394de47547, 2021-03-26)"
-   sodipodi:docname="reactions.svg">
+   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   sodipodi:docname="reactions.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2">
     <rect
@@ -302,20 +302,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="-231.35782"
-     inkscape:cy="2890.1304"
+     inkscape:zoom="0.45254834"
+     inkscape:cx="202.18835"
+     inkscape:cy="1242.9611"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1204"
-     inkscape:window-height="949"
-     inkscape:window-x="110"
-     inkscape:window-y="65"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
      inkscape:snap-bbox="false"
-     inkscape:snap-global="false" />
+     inkscape:snap-global="false"
+     inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -324,7 +325,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -351,7 +352,7 @@
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.965;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-mid:url(#Arrow1Send);marker-end:url(#Arrow1Mend)"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.965;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:url(#Arrow1Send);marker-end:url(#Arrow1Mend)"
        d="m 52.835829,91.93882 24.639591,0"
        id="path837"
        inkscape:connector-type="polyline"
@@ -492,7 +493,7 @@
        x="100.74654"
        y="342.96085"
        id="text1501"
-       inkscape:export-filename="/home/zsolt/snap/inkscape/8746/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
@@ -517,14 +518,14 @@
          id="tspan1509"
          x="86.56012"
          y="351.05048"
-         style="stroke-width:0.264583"></tspan></text>
+         style="stroke-width:0.264583" /></text>
     <text
        xml:space="preserve"
        style="font-size:10.5833px;line-height:0.85;font-family:Impact;-inkscape-font-specification:Impact;stroke-width:0.264583"
        x="12.444233"
        y="388.3136"
        id="text1525"
-       inkscape:export-filename="/home/zsolt/snap/inkscape/8746/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
@@ -545,7 +546,7 @@
        x="190.48656"
        y="388.3136"
        id="text1535"
-       inkscape:export-filename="/home/zsolt/snap/inkscape/8746/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
@@ -566,7 +567,7 @@
        x="-18.868881"
        y="439.05362"
        id="text1586"
-       inkscape:export-filename="/home/zsolt/snap/inkscape/8746/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
@@ -592,7 +593,7 @@
        x="43.757347"
        y="439.05362"
        id="text1600"
-       inkscape:export-filename="/home/zsolt/snap/inkscape/8746/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
@@ -611,14 +612,14 @@
          y="457.04523"
          style="text-align:center;text-anchor:middle">σ<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan1596">e</tspan></tspan></text>
+   id="tspan2214">in</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:10.5833px;line-height:0.85;font-family:Impact;-inkscape-font-specification:Impact;stroke-width:0.264583"
        x="119.00922"
        y="439.05362"
        id="text1610"
-       inkscape:export-filename="/home/zsolt/snap/inkscape/8746/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
@@ -639,7 +640,7 @@
        x="170.77312"
        y="439.05362"
        id="text1622"
-       inkscape:export-filename="/home/zsolt/snap/inkscape/8746/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
@@ -665,7 +666,7 @@
        x="216.5126"
        y="439.05362"
        id="text1636"
-       inkscape:export-filename="/home/zsolt/snap/inkscape/8746/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
@@ -705,7 +706,7 @@
        x="257.01108"
        y="439.05362"
        id="text1668"
-       inkscape:export-filename="/home/zsolt/snap/inkscape/8746/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
@@ -735,14 +736,14 @@
     <text
        xml:space="preserve"
        id="text1700"
-       style="line-height:0.85;font-family:Arial;font-size:10.58333333px;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect1702);" />
+       style="line-height:0.85;font-family:Arial;font-size:10.58333333px;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect1702)" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 89.053971,350.59461 12.911933,376.62006"
        id="path1860"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/zsolt/snap/inkscape/8746/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -751,16 +752,16 @@
        id="path1862"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/zsolt/snap/inkscape/8746/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 5.2272326,396.70907 -19.143211,426.4639"
        id="path1864"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/zsolt/snap/inkscape/8746/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -769,16 +770,16 @@
        id="path1866"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/zsolt/snap/inkscape/8746/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 176.9826,397.17591 -58.22857,30.7931"
        id="path1870"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/zsolt/snap/inkscape/8746/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -787,16 +788,16 @@
        id="path1872"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/zsolt/snap/inkscape/8746/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 203.15689,394.79328 50.7058,33.12499"
        id="path1874"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/zsolt/snap/inkscape/8746/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
@@ -805,7 +806,7 @@
        id="path1876"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/zsolt/snap/inkscape/8746/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <circle
@@ -1084,7 +1085,7 @@
     <text
        xml:space="preserve"
        id="text3842"
-       style="line-height:0.85;font-family:Arial;font-size:10.58333333px;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect3844);" />
+       style="line-height:0.85;font-family:Arial;font-size:10.58333333px;-inkscape-font-specification:Arial;white-space:pre;shape-inside:url(#rect3844)" />
     <text
        xml:space="preserve"
        style="font-size:10.5833px;line-height:0.85;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
@@ -1251,5 +1252,312 @@
          style="font-size:6.35px;stroke-width:0.264583">Ba<tspan
    style="font-size:65%;baseline-shift:super"
    id="tspan3938">137</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:0.85;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="-186.05363"
+       y="240.42035"
+       id="text1501-8"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1505-2"
+         x="-186.05363"
+         y="240.42035"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle">total</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1507-6"
+         x="-186.05363"
+         y="249.41617"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle">σ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;baseline-shift:sub;text-anchor:middle"
+   id="tspan1517-0">t</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:0.85;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="-274.35593"
+       y="285.7731"
+       id="text1525-6"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1519-6"
+         x="-274.35593"
+         y="285.7731"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle">scattering</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1523-4"
+         x="-274.35593"
+         y="294.76892"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle">σ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
+   id="tspan1527-6">s</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:0.85;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="-96.313614"
+       y="285.7731"
+       id="text1535-2"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1529-8"
+         x="-96.313614"
+         y="285.7731"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle">absorption</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1533-9"
+         x="-96.313614"
+         y="294.76892"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle">σ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
+   id="tspan1537-6">a</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:0.85;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="-305.66904"
+       y="336.51312"
+       id="text1586-0"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1580-7"
+         x="-305.66904"
+         y="336.51312"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle">elastic</tspan><tspan
+         sodipodi:role="line"
+         x="-305.66904"
+         y="345.50894"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle"
+         id="tspan1588-0">scattering</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1584-1"
+         x="-305.66904"
+         y="354.50473"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle">σ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
+   id="tspan1590-0">e</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:0.85;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="-243.04282"
+       y="336.51312"
+       id="text1600-1"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1592-3"
+         x="-243.04282"
+         y="336.51312"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle">inelastic</tspan><tspan
+         sodipodi:role="line"
+         x="-243.04282"
+         y="345.50894"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle"
+         id="tspan1594-7">scattering</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1598-7"
+         x="-243.04282"
+         y="354.50473"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle">σ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
+   id="tspan2214-2">in</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:0.85;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="-167.79095"
+       y="336.51312"
+       id="text1610-6"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         x="-167.79095"
+         y="336.51312"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle"
+         id="tspan1604-4">fission</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1608-5"
+         x="-167.79095"
+         y="345.50894"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle">σ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
+   id="tspan1614-2">f</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:0.85;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="-116.02705"
+       y="336.51312"
+       id="text1622-0"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         x="-116.02705"
+         y="336.51312"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle"
+         id="tspan1616-2">radiative</tspan><tspan
+         sodipodi:role="line"
+         x="-116.02705"
+         y="345.50894"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle"
+         id="tspan1624-9">capture</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1620-0"
+         x="-116.02705"
+         y="354.50473"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle">σ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
+   id="tspan1626-9">c</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:0.85;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="-70.287567"
+       y="336.51312"
+       id="text1636-9"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         x="-70.287567"
+         y="336.51312"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle"
+         id="tspan1630-4">n,<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   id="tspan1646-5">i</tspan>n </tspan><tspan
+         sodipodi:role="line"
+         id="tspan1634-1"
+         x="-70.287567"
+         y="345.50894"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle">σ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
+   id="tspan1648-0">n,2n</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="-70.287567"
+         y="354.50473"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle"
+         id="tspan1642-3">σ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
+   id="tspan1650-7">n,3n</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="-70.287567"
+         y="363.50055"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle"
+         id="tspan1644-8">...</tspan><tspan
+         sodipodi:role="line"
+         x="-70.287567"
+         y="372.49634"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle"
+         id="tspan1640-8" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:0.85;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+       x="-29.789093"
+       y="336.51312"
+       id="text1668-6"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1670-0"
+         x="-29.789093"
+         y="336.51312"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle">others</tspan><tspan
+         sodipodi:role="line"
+         id="tspan1674-4"
+         x="-29.789093"
+         y="345.50894"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle">σ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;baseline-shift:sub;text-anchor:middle"
+   id="tspan1694-6">n,p</tspan></tspan><tspan
+         sodipodi:role="line"
+         id="tspan1682-7"
+         x="-29.789093"
+         y="354.50473"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle">σ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;baseline-shift:sub;text-anchor:middle"
+   id="tspan1696-6">n,α</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="-29.789093"
+         y="363.50055"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle"
+         id="tspan1698-0">...</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -197.7462,248.05411 -76.14204,26.02545"
+       id="path1860-9"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -175.46311,248.05411 76.14247,26.02545"
+       id="path1862-7"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -281.57294,294.16857 -24.37044,29.75483"
+       id="path1864-5"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -267.3142,294.16857 24.37045,29.75483"
+       id="path1866-9"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -109.81757,294.63541 -58.22857,30.7931"
+       id="path1870-7"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.562;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -86.98276,296.63023 14.99819,29.30919"
+       id="path1872-8"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -83.64328,292.25278 50.7058,33.12499"
+       id="path1874-5"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.565;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -102.93018,295.82363 -14.22424,28.41459"
+       id="path1876-3"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/zsolt/Documents/ReactorPhysics/books/ZsElter/latexsrc/figures/01-xshierarchy.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
   </g>
 </svg>
