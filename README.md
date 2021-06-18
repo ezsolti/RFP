@@ -1,6 +1,6 @@
 # Reaktorfysik med python
 
-This repo contains the material developped for an introductory reactor physics course given at Uppsala University (further info on the course [here](https://www.uu.se/utbildning/utbildningar/selma/kurser/?kKod=1FA456&lasar=21%2F22&typ=1)). 
+This repo contains the material developed for an introductory reactor physics course given at Uppsala University (further info on the course [here](https://www.uu.se/utbildning/utbildningar/selma/kurser/?kKod=1FA456&lasar=21%2F22&typ=1)). 
 
 The course gives an overview of
 
@@ -25,7 +25,7 @@ The content of this repo:
 - HomeAssignments: contains the jupyter notebooks for the home assignments
 - RFP_lecturenotes.pdf: the lecture note
 
-Please notice that the python source code is available for all the figures. Soon it is going to be shared in the form of jupyter notebooks. If you would like to access them before, please contact us.
+We do not wish to share the solutions to the exercises publicly, however if you are an educator who would require the solutions, please contact us. Please notice that the python source code is available for all the figures. Soon it is going to be shared in the form of jupyter notebooks. If you would like to access them before, please contact us.
 
 ## Dependencies
 
