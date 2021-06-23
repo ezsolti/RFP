@@ -38,7 +38,7 @@ Packages used:
 - pandas
 - openMC python API
 
-We have prepared a Virtual Ubunutu with the required software pre-installed. If you would like to use it, please contact us.
+We have prepared a Virtual Ubuntu with the required software pre-installed. If you would like to use it, please contact us.
 
 ## Contribution
 
