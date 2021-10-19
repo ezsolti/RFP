@@ -23,6 +23,7 @@ The content of this repo:
 - latexsrc: contains the source code for the lecture notes and figures
 - Datalabs: contains the jupyter notebooks and additional files for the datalabs
 - HomeAssignments: contains the jupyter notebooks for the home assignments
+- LectureFigures: contains a jupyter notebook with the source code of the figures in the lecture note, and some additional data files.
 - RFP_lecturenotes.pdf: the lecture note
 
 We do not wish to share the solutions to the exercises publicly, however if you are an educator who would require the solutions, please contact us. Please notice that the python source code is available for all the figures. Soon it is going to be shared in the form of jupyter notebooks. If you would like to access them before, please contact us.
