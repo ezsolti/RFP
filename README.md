@@ -25,6 +25,7 @@ The content of this repo:
 - HomeAssignments: contains the jupyter notebooks for the home assignments
 - LectureFigures: contains a jupyter notebook with the source code of the figures in the lecture note, and some additional data files.
 - RFP_lecturenotes.pdf: the lecture note
+- NDmodule: this module provides a set of separate notebooks used for teaching nuclear data processing.
 
 We do not wish to share the solutions to the exercises publicly, however if you are an educator who would require the solutions, please contact us. Please notice that the python source code is available for all the figures. Soon it is going to be shared in the form of jupyter notebooks. If you would like to access them before, please contact us.
 
