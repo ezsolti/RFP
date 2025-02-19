@@ -1,0 +1,1 @@
+At the end of the RFP course the students select from a set of project tasks based on their own interests. The goal of these projects is to allow to do research-like exercises within the field of nuclear and reactor physics. Ideally, students should spend around 5-10 hours on solving these exercises covering the recommended literature review.
