@@ -1,0 +1,61 @@
+
+% Uranium oxide
+% -----------------
+mat UOX -10.5
+ 92235.15c  -0.03085216
+ 92238.15c  -0.85063806
+ 8016.15c   -0.11850978
+ 98249.15c  -0.0
+ 98250.15c  -0.0
+ 98251.15c  -0.0
+ 98252.15c  -0.0
+ 98253.15c  -0.0
+ 98254.15c  -0.0
+
+
+% Water
+mat water -0.750 moder lwtr 1001
+ 8016.06c 1.0
+ 1001.06c 2.0
+
+therm lwtr lwe7.12t
+
+% Zirconium cladding (100%)
+% --------------
+mat clad -6.52
+40000.09c 1.0
+
+% Define fuel pin and surfaces
+% ----------------------------
+pin 1 
+UOX  0.41
+void 0.42
+clad 0.48
+water
+
+surf surf_1 sqc 0.0 0.0 0.63
+cell cell_1 0 fill 1 -surf_1
+cell cell_2 0 outside surf_1
+
+% Reflective boundary conditions
+% -------------------------------
+set bc 2
+
+% Plot from above
+% ----------------
+%plot 3 600 600 0 -2 2 -2 2
+
+set pop 50000 5000 10
+%set pop 10000 1000 10
+set acelib "/home/elter/jeff31.xsdata"
+
+set powdens 27.39726027e-3
+
+set declib "/usr/local/SERPENT/endf-b-vi-8_decay.dat"
+set nfylib "/usr/local/SERPENT/endf-b-vi-8_nfpy.dat"
+
+set xenon 1
+
+set gcu 0
+set fum defaultmg 2
+set nfg defaultmg
